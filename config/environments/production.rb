@@ -80,6 +80,6 @@ Pinteresting::Application.configure do
 
   # Required for Devise
   # Make sure to specify online host address
-  config.action_mailer.default_url_options = { host: 'http://rkc-pinteresting.herokuapp.com'}
+  config.action_mailer.default_url_options = { host: 'http://rkc-pinteresting.herokuapp.com/'}
 
 end
