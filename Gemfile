@@ -31,6 +31,9 @@ gem 'bootstrap-sass'
 # Devise gem for user sign up and login
 gem 'devise', '~> 3.2.4'
 
+# Paperclip gem
+gem 'paperclip', '~> 4.1'
+
 group :development, :test do
 	gem 'sqlite3'
 end
