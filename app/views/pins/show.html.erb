@@ -4,7 +4,7 @@
 	<div class="col-md-offset-2 col-md-8">
 		<div class="panel panel-default">
 			<div class="panel-heading center">	
-				<%= image_tag @pin.image.url %>
+				<%= image_tag(@pin.image.url, size: "600x600") %>
 			</div>
 
 			<div class="panel-body">
@@ -22,4 +22,6 @@
 			</div>
 	</div>
 </div>
+
+
 
