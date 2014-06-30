@@ -34,6 +34,9 @@ gem 'devise', '~> 3.2.4'
 # Paperclip gem
 gem 'paperclip', '~> 4.1'
 
+# Amazon S3 gem
+gem 'aws-sdk', '~> 1.45.0'
+
 group :development, :test do
 	gem 'sqlite3'
 end
